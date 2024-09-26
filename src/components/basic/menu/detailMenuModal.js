@@ -208,10 +208,10 @@ function DetailMenuModal() {
                   className={`drink-option barbaque ${selectedSauce.includes('바비큐') ? 'active' : ''}`}
                   onClick={() => handleSauceClick('바비큐')}
                 ><img src={selectedSauce.includes('바비큐') ? barbaque_click : barbaque} alt="작은 음료" />바비큐</button>
-                <button 
+                {/* <button 
                   className={`drink-option hotsauce ${selectedSauce.includes('핫소스') ? 'active' : ''}`}
                   onClick={() => handleSauceClick('핫소스')}
-                ><img src={selectedSauce.includes('핫소스') ? hotsauce_click : hotsauce} alt="작은 음료" />핫소스</button>
+                ><img src={selectedSauce.includes('핫소스') ? hotsauce_click : hotsauce} alt="작은 음료" />핫소스</button> */}
               </div>
             </>
           ) : (

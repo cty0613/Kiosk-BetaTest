@@ -208,10 +208,10 @@ function DetailMenuModal() {
                   className={`drink-option barbaque ${selectedSauce.includes('바비큐') ? 'active' : ''}`}
                   onClick={() => handleSauceClick('바비큐')}
                 >바비큐</button>
-                <button 
+                {/* <button 
                   className={`drink-option hotsauce ${selectedSauce.includes('핫소스') ? 'active' : ''}`}
                   onClick={() => handleSauceClick('핫소스')}
-                >핫소스</button>
+                >핫소스</button> */}
               </div>
             </>
           ) : (
