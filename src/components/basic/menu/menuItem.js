@@ -5,7 +5,7 @@ import { SetMenuDetailModal, SetMenuInfo } from '../../../redux/kioskAction';
 import { useEffect, useState } from 'react';
 
 const imageMapping = {
-  nachoPlater: require("../../../assets/imgs/nacho.png"),
+  nachoPlater: require("../../../assets/imgs/nacho_platter.png"),
   buldak: require("../../../assets/imgs/bdgt.png"),
   Premium_buldak: require("../../../assets/imgs/p_bdgt.png"),
   sunrise: require("../../../assets/imgs/sunrise.png"),
