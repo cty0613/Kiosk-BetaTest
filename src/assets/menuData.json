@@ -1,0 +1,74 @@
+{
+  "topCategories": [
+    {
+      "id": 1,
+      "name": "안주류",
+      "className": null,
+      "items": [
+        {
+          "id": 15,
+          "name": "나쵸 플래터",
+          "info": "내 마음대로 토핑을 골라담는 푸짐한 나쵸 플래터        베이컨칩과 레몬즙 기본 제공",
+          "price": 14000,
+          "photoURL" : "nachoPlater",
+          "option": []
+        },
+        {
+          "id": 16,
+          "name": "불닭게티",
+          "info": "정통적인 방식으로 만든 우리가 아는 그 맛 불닭게티(맵찔이도 가능!)",
+          "price": 13000,
+          "photoURL" : "buldak",
+          "option": []
+        },
+        {
+          "id": 17,
+          "name": "프리미엄 불닭게티",
+          "info": "정통 불닭게티에 두툼한 고소한 체다치즈와 킬바사 소시지가 통으로 올라간 특제 메뉴",
+          "price": 18000,
+          "photoURL" : "Premium_buldak",
+          "option": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "무알콜 칵테일",
+      "className": null,
+      "items": [
+        {
+          "id": 18,
+          "name": "선라이즈",
+          "info": "오렌지주스에 달콤한 석류향이 첨가된 무알콜 칵테일",
+          "price": 7000,
+          "photoURL" : "sunrise",
+          "option": []
+        },
+        {
+          "id": 19,
+          "name": "버진 쿠바리브레",
+          "info": "콜라에 새콤달콤한 라임즙을 첨가한 칵테일",
+          "price": 7000,
+          "photoURL" : "cuba",
+          "option": []
+        },
+        {
+          "id": 20,
+          "name": "석류 스파클러",
+          "info": "달달한 석류 맛 칵테일",
+          "price": 7000,
+          "photoURL" : "po_spark",
+          "option": []
+        },
+        {
+          "id": 21,
+          "name": "청포도 스파클러",
+          "info": "달달한 청포도 맛 칵테일",
+          "price": 7000,
+          "photoURL" : "grape_spark",
+          "option": []
+        }
+      ]
+    }
+  ]
+}
