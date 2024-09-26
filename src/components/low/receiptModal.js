@@ -8,7 +8,7 @@ import { useReactToPrint } from 'react-to-print';
 const ReceiptModal = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [countdown, setCountdown] = useState(5);
+  const [countdown, setCountdown] = useState(8);
   const [receiptData, setReceiptData] = useState(null);
   const componentRef = useRef();
 

@@ -53,6 +53,18 @@ function KioskStart() {
           주문하기
         </button>
       )}
+       <div style={{display:'flex', marginBottom:'5rem'}}>
+        <p className="people-info">
+          컴퓨터공학과 20학번 장진영 (PM/FE)<br/>
+          전기전자공학과 18학번 최태영 (HW)<br/>
+          컴퓨터공학과 18학번 조진수 (BE)<br/>
+        </p>
+        <p className="people-info">
+          컴퓨터공학과 20학번 김지우 (BE)<br/>
+          시각디자인학과 21학번 신수민 (UI디자인)<br/>
+          시각디자인학과 23학번 선 율 (ICON디자인)<br/>
+        </p>
+      </div>
     </m.KioskStartContainer>
   );
 }

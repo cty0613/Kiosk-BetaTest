@@ -8,7 +8,7 @@ import { useReactToPrint } from 'react-to-print';
 const ReceiptModal = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [countdown, setCountdown] = useState(5);
+  const [countdown, setCountdown] = useState(8);
   const [receiptData, setReceiptData] = useState(null);
   const componentRef = useRef();
 
@@ -126,7 +126,7 @@ const ReceiptModal = () => {
     <md.ReceiptModalContainer>
       <h1>[주문 완료]</h1>
       <br/>
-      <h1>주문서를 직원에게 제출해주세요!</h1>
+      <h1>주문서 확인 후, 직원에게 제출해주세요!</h1>
 
       {/* Component to be printed */}
       <div style={{ display: 'none' }}>

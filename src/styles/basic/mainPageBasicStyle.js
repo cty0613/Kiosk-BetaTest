@@ -15,7 +15,7 @@ export const KioskStartContainer = styled.div`
     }
 
     h1 {
-      margin : 0 3rem;
+      margin : 5rem 3rem;
       font-size : 7rem;
       line-height : 11rem;
       text-align: center;
@@ -33,7 +33,7 @@ export const KioskStartContainer = styled.div`
       }
     }
     .info-test {
-      margin : 0 3rem;
+      margin : 5rem 3rem 0 5rem;
       font-size : 2.5rem;
       line-height : 5rem;
       text-align: center;
@@ -50,7 +50,15 @@ export const KioskStartContainer = styled.div`
       border : none;
       border-radius : 3rem;
       cursor : pointer;
-      margin-bottom : 20rem;
+      margin-top : 5rem;
+      margin-bottom : 5rem;
+    }
+    .people-info {
+      color : rgba(0,0,0,0.3);
+      font-size : 1.2rem;
+      line-height : 2rem;
+      text-align: center;
+      border-radius : 2rem;
     }
 `
 export const KioskMainContainer = styled.div`
